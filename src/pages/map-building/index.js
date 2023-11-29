@@ -12,12 +12,13 @@ export function MapBuildingPage() {
     <div className="relative h-screen w-full bg-blue-800 flex flex-col items-center justify-center">
       <img src={imageBackground} className="absolute w-full h-full" />
 
-      {boothSelected && (
+      {boothSelected?.images.length >= 1 ? (
         <div className="w-full h-full bg-black absolute z-10 bg-opacity-40 flex justify-center items-center">
-          <div className="relative">
+          <div className="relative bg-white">
             <img
               src={`images/banner/${boothSelected.images[0]}`}
               className="w-[600px]"
+              alt={boothSelected.name}
             />
             <button
               onClick={() => {
@@ -29,7 +30,30 @@ export function MapBuildingPage() {
             </button>
           </div>
         </div>
-      )}
+      ) : boothSelected?.images?.length == 0 ? (
+        <div className="w-full h-full bg-black absolute z-10 bg-opacity-40 flex justify-center items-center">
+          <div className="relative bg-white flex justify-center items-center">
+            <img
+              src={imageBackground}
+              className="w-[600px]"
+              alt={boothSelected.name}
+            />
+            <div className="absolute bg-white py-3 px-5 rounded-xl">
+              <h1 className="text-4xl font-bold text-center">
+                {boothSelected.name}
+              </h1>
+            </div>
+            <button
+              onClick={() => {
+                setBoothSelected(null);
+              }}
+              className="absolute -right-12 -top-12 bg-white rounded-full p-2"
+            >
+              <FiX size={24} />
+            </button>
+          </div>
+        </div>
+      ) : null}
 
       <br />
       <br />
@@ -38,7 +62,7 @@ export function MapBuildingPage() {
       <br />
 
       <div className="w-11/12 bg-white relative rounded-[28px] p-5">
-        <video width="960" controls autoPlay={true} loop muted>
+        <video width="955" controls autoPlay={true} loop muted>
           <source src="video/bpbrin.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>

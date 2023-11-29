@@ -42,7 +42,7 @@ export const data = [
   {
     id: "a2_1",
     name: "BPBRIN Booth",
-    // images: ["a2_1.jpg"],
+    images: ["a2_1.jpg"],
     coordinate: {
       left: "41.5%",
       top: "57.1%",
@@ -316,7 +316,7 @@ export const data = [
   {
     id: "b2_4",
     name: "Artiarta",
-    images: ["b2_3.jpg"],
+    images: ["b2_4.jpg"],
     coordinate: {
       left: "82.8%",
       top: "35.3%",
@@ -353,7 +353,7 @@ export const data = [
   {
     id: "b3_4",
     name: "Markas Walet",
-    images: ["b3_3.jpg"],
+    images: ["b3_4.jpg"],
     coordinate: {
       left: "85.9%",
       top: "29.6%",
