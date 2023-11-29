@@ -38,7 +38,7 @@ export function MapBuildingPage() {
       <br />
 
       <div className="w-11/12 bg-white relative rounded-[28px] p-5">
-        <video width="950" controls autoPlay={true} loop muted>
+        <video width="960" controls autoPlay={true} loop muted>
           <source src="video/bpbrin.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
