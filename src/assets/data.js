@@ -191,84 +191,148 @@ export const data = [
     id: "c1_1",
     name: "Bhagalen",
     images: ["c1_1.jpg"],
+    coordinate: {
+      left: "22.8%",
+      top: "57.1%",
+    },
   },
   {
     id: "c1_2",
     name: "Kakidiabet + Vascular Indonesia",
     images: ["c1_2.jpg"],
+    coordinate: {
+      left: "21.5%",
+      top: "55.5%",
+    },
   },
   {
     id: "c1_3",
     name: "Medical Tourism",
     images: ["c1_3.jpg"],
+    coordinate: {
+      left: "23.8%",
+      top: "55%",
+    },
   },
   {
     id: "c1_4",
     name: "Velife",
     images: ["c1_4.jpg"],
+    coordinate: {
+      left: "22.4%",
+      top: "53.3%",
+    },
   },
 
   {
     id: "c2_1",
     name: "Spriralife",
     images: ["c2_1.jpg"],
+    coordinate: {
+      left: "19%",
+      top: "51.5%",
+    },
   },
   {
     id: "c2_2",
     name: "Airlangga Agency",
     images: ["c2_2.jpg"],
+    coordinate: {
+      left: "18%",
+      top: "49.3%",
+    },
   },
   {
     id: "c2_3",
     name: "Digiteev",
     images: ["c2_3.jpg"],
+    coordinate: {
+      left: "20.3%",
+      top: "49.8%",
+    },
   },
   {
     id: "c2_4",
     name: "Semicolon",
     images: ["c2_4.jpg"],
+    coordinate: {
+      left: "19.3%",
+      top: "47.5%",
+    },
   },
 
   {
     id: "c3_1",
     name: "Dibi Bronie",
     images: ["c3_1.jpg"],
+    coordinate: {
+      left: "16.2%",
+      top: "45.2%",
+    },
   },
   {
     id: "c3_2",
     name: "Vettalk",
     images: ["c3_2.jpg"],
+    coordinate: {
+      left: "15%",
+      top: "43.2%",
+    },
   },
   {
     id: "c3_3",
     name: "Bayi Bunda",
     images: ["c3_3.jpg"],
+    coordinate: {
+      left: "17.5%",
+      top: "43.7%",
+    },
   },
   {
     id: "c3_4",
     name: "Teman Menyusui",
     images: ["c3_4.jpg"],
+    coordinate: {
+      left: "16.4%",
+      top: "41.5%",
+    },
   },
 
   {
     id: "c4_1",
     name: "Kanvas Tour",
     images: ["c4_1.jpg"],
+    coordinate: {
+      left: "13.2%",
+      top: "39.5%",
+    },
   },
   {
     id: "c4_2",
     name: "Goolive",
     images: ["c4_2.jpg"],
+    coordinate: {
+      left: "12%",
+      top: "37.5%",
+    },
   },
   {
     id: "c4_3",
     name: "Hidata",
     images: ["c4_3.jpg"],
+    coordinate: {
+      left: "14.5%",
+      top: "38%",
+    },
   },
   {
     id: "c4_4",
     name: "Jobhun",
     images: ["c4_4.jpg"],
+    coordinate: {
+      left: "13.5%",
+      top: "36%",
+    },
   },
 
   {
