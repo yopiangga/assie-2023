@@ -9,6 +9,8 @@
 /coverage
 
 /src/assets/banner
+/public/images
+/public/video
 
 # production
 /build

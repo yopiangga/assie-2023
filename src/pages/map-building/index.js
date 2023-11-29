@@ -2,14 +2,48 @@ import { data } from "src/assets/data.js";
 import imageMap from "src/assets/map.png";
 import imageDescription from "src/assets/description.png";
 import imageBackground from "src/assets/background.jpg";
+import { useEffect, useRef, useState } from "react";
+import { FiX } from "react-icons/fi";
 
 export function MapBuildingPage() {
+  const [boothSelected, setBoothSelected] = useState();
+
   return (
     <div className="relative h-screen w-full bg-blue-800 flex flex-col items-center justify-center">
       <img src={imageBackground} className="absolute w-full h-full" />
 
+      {boothSelected && (
+        <div className="w-full h-full bg-black absolute z-10 bg-opacity-40 flex justify-center items-center">
+          <div className="relative">
+            <img
+              src={`images/banner/${boothSelected.images[0]}`}
+              className="w-[600px]"
+            />
+            <button
+              onClick={() => {
+                setBoothSelected(null);
+              }}
+              className="absolute -right-12 -top-12 bg-white rounded-full p-2"
+            >
+              <FiX size={24} />
+            </button>
+          </div>
+        </div>
+      )}
+
       <br />
       <br />
+      <br />
+      <br />
+      <br />
+
+      <div className="w-11/12 bg-white relative rounded-[28px] p-5">
+        <video width="950" controls autoPlay={true} loop muted>
+          <source src="video/bpbrin.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
       <br />
 
       <div className="bg-white rounded-[28px] p-4 w-11/12 overflow-scroll flex relative">
@@ -20,8 +54,8 @@ export function MapBuildingPage() {
             <ButtonCircle
               key={item.id}
               id={item.id}
-              callback={(id) => {
-                console.log(id);
+              callback={(temp) => {
+                setBoothSelected(temp);
               }}
               item={item}
             />
@@ -36,26 +70,15 @@ export function MapBuildingPage() {
       </div>
 
       <br />
-
-      <div className="w-11/12 h-[520px] bg-white relative rounded-[28px]"></div>
-
-      {/* <br />
-      <br />
-
-      <div className="text-center relative">
-        <h1 className="text-white font-bold text-[80px]">ASSIE 2023</h1>
-      </div>
-      <br />
-      <br /> */}
     </div>
   );
 }
 
-function ButtonCircle({ id, callback, item }) {
+function ButtonCircle({ callback, item }) {
   return (
     <button
       onClick={() => {
-        callback(id);
+        callback(item);
       }}
       style={{
         left: item?.coordinate?.left || 0,
@@ -63,7 +86,7 @@ function ButtonCircle({ id, callback, item }) {
         height: item?.size || 15,
         width: item?.size || 15,
       }}
-      className={`bg-yellow-400 absolute rounded-full`}
+      className={`absolute rounded-full`}
     ></button>
   );
 }

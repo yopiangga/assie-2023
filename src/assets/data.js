@@ -42,7 +42,7 @@ export const data = [
   {
     id: "a2_1",
     name: "BPBRIN Booth",
-    images: ["a2_1.jpg"],
+    // images: ["a2_1.jpg"],
     coordinate: {
       left: "41.5%",
       top: "57.1%",
@@ -74,7 +74,7 @@ export const data = [
     name: "Matching Fund",
     images: ["a3_3.jpg"],
     coordinate: {
-      left: "50.3%",
+      left: "47.8%",
       top: "57.2%",
     },
     size: "20px",
@@ -84,7 +84,7 @@ export const data = [
     name: "ULP Farmasai",
     images: ["a3_4.jpg"],
     coordinate: {
-      left: "47.8%",
+      left: "50.3%",
       top: "57.2%",
     },
     size: "20px",
@@ -203,88 +203,161 @@ export const data = [
     id: "a6_4",
     name: "FPSI",
     images: ["a6_4.jpg"],
+    coordinate: {
+      left: "69.5%",
+      top: "54.7%",
+    },
+    size: "20px",
   },
   {
     id: "a7_1",
     name: "PT Indo Folra",
     images: ["a7_1.jpg"],
+    coordinate: {
+      left: "75.3%",
+      top: "52.8%",
+    },
+    size: "20px",
   },
   {
     id: "a7_2",
     name: "DPKKA",
     images: ["a7_2.jpg"],
+    coordinate: {
+      left: "76.8%",
+      top: "49.7%",
+    },
+    size: "20px",
   },
   {
     id: "a7_3",
     name: "PPMB",
     images: ["a7_3.jpg"],
+    coordinate: {
+      left: "73.3%",
+      top: "50.2%",
+    },
+    size: "20px",
   },
   {
     id: "a7_4",
     name: "Pusat Halal",
     images: ["a7_4.jpg"],
+    coordinate: {
+      left: "74.8%",
+      top: "47.4%",
+    },
+    size: "20px",
   },
 
   {
     id: "b1_1",
     name: "ITS",
     images: ["b1_1.jpg"],
+    coordinate: {
+      left: "80.2%",
+      top: "44.7%",
+    },
   },
   {
     id: "b1_2",
     name: "UPN",
     images: ["b1_2.jpg"],
+    coordinate: {
+      left: "81.3%",
+      top: "42.6%",
+    },
   },
   {
     id: "b1_3",
     name: "UNM (DLI Edu Venture)",
     images: ["b1_3.jpg"],
+    coordinate: {
+      left: "79%",
+      top: "43.1%",
+    },
   },
   {
     id: "b1_4",
     name: "UNESA",
     images: ["b1_4.jpg"],
+    coordinate: {
+      left: "80%",
+      top: "41.2%",
+    },
   },
   {
     id: "b2_1",
     name: "PENS",
     images: ["b2_1.jpg"],
+    coordinate: {
+      left: "83.1%",
+      top: "39.0%",
+    },
   },
   {
     id: "b2_2",
     name: "PPNS (Inkubator Bisnis)",
     images: ["b2_2.jpg"],
+    coordinate: {
+      left: "84.2%",
+      top: "37.0%",
+    },
   },
   {
     id: "b2_3",
     name: "Heztek Coding",
     images: ["b2_3.jpg"],
+    coordinate: {
+      left: "81.8%",
+      top: "37.5%",
+    },
   },
   {
     id: "b2_4",
     name: "Artiarta",
     images: ["b2_3.jpg"],
+    coordinate: {
+      left: "82.8%",
+      top: "35.3%",
+    },
   },
 
   {
     id: "b3_1",
     name: "Braja",
     images: ["b3_1.jpg"],
+    coordinate: {
+      left: "86.1%",
+      top: "33.0%",
+    },
   },
   {
     id: "b3_2",
     name: "IBE Reality",
     images: ["b3_2.jpg"],
+    coordinate: {
+      left: "87.1%",
+      top: "31.2%",
+    },
   },
   {
     id: "b3_3",
     name: "Gelatah",
     images: ["b3_3.jpg"],
+    coordinate: {
+      left: "84.8%",
+      top: "31.5%",
+    },
   },
   {
     id: "b3_4",
     name: "Markas Walet",
     images: ["b3_3.jpg"],
+    coordinate: {
+      left: "85.9%",
+      top: "29.6%",
+    },
   },
 
   {
@@ -439,83 +512,151 @@ export const data = [
     id: "d1_1",
     name: "Maskopat",
     images: ["d1_1.jpg"],
+    coordinate: {
+      left: "79.5%",
+      top: "13.6%",
+    },
   },
   {
     id: "d1_2",
     name: "Kopi Celup Gahwi",
     images: ["d1_2.jpg"],
+    coordinate: {
+      left: "77.9%",
+      top: "13.6%",
+    },
   },
   {
     id: "d1_3",
     name: "Yorry Eatry",
     images: ["d1_3.jpg"],
+    coordinate: {
+      left: "79.5%",
+      top: "11.1%",
+    },
   },
   {
     id: "d1_4",
     name: "Yuksri",
     images: ["d1_4.jpg"],
+    coordinate: {
+      left: "77.9%",
+      top: "11.1%",
+    },
   },
 
   {
     id: "d2_1",
     name: "Shaany",
     images: ["d2_1.jpg"],
+    coordinate: {
+      left: "74.8%",
+      top: "13.6%",
+    },
   },
   {
     id: "d2_2",
     name: "Lomeal",
     images: ["d2_2.jpg"],
+    coordinate: {
+      left: "73.1%",
+      top: "13.6%",
+    },
   },
   {
     id: "d2_3",
     name: "Madu Onggu",
     images: ["d2_3.jpg"],
+    coordinate: {
+      left: "74.8%",
+      top: "11.1%",
+    },
   },
   {
     id: "d2_4",
     name: "Haust (Second Please)",
     images: ["d2_4.jpg"],
+    coordinate: {
+      left: "73.1%",
+      top: "11.1%",
+      coordinate: {
+        left: "73.1%",
+        top: "13.6%",
+      },
+    },
   },
 
   {
     id: "d3_1",
     name: "Calmantea",
     images: ["d3_1.jpg"],
+    coordinate: {
+      left: "70.1%",
+      top: "13.6%",
+    },
   },
   {
     id: "d3_2",
     name: "Botega",
     images: ["d3_2.jpg"],
+    coordinate: {
+      left: "68.4%",
+      top: "13.6%",
+    },
   },
   {
     id: "d3_3",
     name: "Castuarine",
     images: ["d3_3.jpg"],
+    coordinate: {
+      left: "70.1%",
+      top: "11.1%",
+    },
   },
   {
     id: "d3_4",
     name: "Gyarus.id",
     images: ["d3_4.jpg"],
+    coordinate: {
+      left: "68.4%",
+      top: "11.1%",
+    },
   },
 
   {
     id: "d4_1",
     name: "Konveto Clothing Green",
     images: ["d4_1.jpg"],
+    coordinate: {
+      left: "65.3%",
+      top: "13.6%",
+    },
   },
   {
     id: "d4_2",
     name: "SiReduksi",
     images: ["d4_2.jpg"],
+    coordinate: {
+      left: "63.6%",
+      top: "13.6%",
+    },
   },
   {
     id: "d4_3",
     name: "Vetpicturean",
     images: ["d4_3.jpg"],
+    coordinate: {
+      left: "65.3%",
+      top: "11.1%",
+    },
   },
   {
     id: "d4_4",
     name: "Batik Warujuang",
     images: ["d4_4.jpg"],
+    coordinate: {
+      left: "63.6%",
+      top: "11.1%",
+    },
   },
 ];
