@@ -3,101 +3,201 @@ export const data = [
     id: "a1_1",
     name: "RSUA",
     images: ["a1_1.jpg"],
+    coordinate: {
+      left: "27.4%",
+      top: "61.1%",
+    },
+    size: "20px",
   },
   {
     id: "a1_2",
     name: "AGT/Store",
     images: ["a1_2.jpg"],
+    coordinate: {
+      left: "29.8%",
+      top: "61.1%",
+    },
+    size: "20px",
   },
   {
     id: "a1_3",
     name: "AHCP",
     images: ["a1_3.jpg"],
+    coordinate: {
+      left: "27.4%",
+      top: "57.3%",
+    },
+    size: "20px",
   },
   {
     id: "a1_4",
     name: "RSHP",
     images: ["a1_4.jpg"],
+    coordinate: {
+      left: "29.8%",
+      top: "57.3%",
+    },
+    size: "20px",
   },
   {
     id: "a2_1",
     name: "BPBRIN Booth",
     images: ["a2_1.jpg"],
+    coordinate: {
+      left: "41.5%",
+      top: "57.1%",
+    },
+    size: "45px",
   },
   {
     id: "a3_1",
     name: "Matching Fund",
     images: ["a3_1.jpg"],
+    coordinate: {
+      left: "47.8%",
+      top: "61.1%",
+    },
+    size: "20px",
   },
   {
     id: "a3_2",
     name: "STEMP CELL (Prualure & GFS Scret)",
     images: ["a3_2.jpg"],
+    coordinate: {
+      left: "50.3%",
+      top: "61.1%",
+    },
+    size: "20px",
   },
   {
     id: "a3_3",
     name: "Matching Fund",
     images: ["a3_3.jpg"],
+    coordinate: {
+      left: "50.3%",
+      top: "57.2%",
+    },
+    size: "20px",
   },
   {
     id: "a3_4",
     name: "ULP Farmasai",
     images: ["a3_4.jpg"],
+    coordinate: {
+      left: "47.8%",
+      top: "57.2%",
+    },
+    size: "20px",
   },
   {
     id: "a4_1",
     name: "FF",
     images: ["a4_1.jpg"],
+    coordinate: {
+      left: "54.2%",
+      top: "61.1%",
+    },
+    size: "20px",
   },
   {
     id: "a4_2",
     name: "FK",
     images: ["a4_2.jpg"],
+    coordinate: {
+      left: "56.8%",
+      top: "61.1%",
+    },
+    size: "20px",
   },
   {
     id: "a4_3",
     name: "FKP",
     images: ["a4_3.jpg"],
+    coordinate: {
+      left: "54.2%",
+      top: "57.3%",
+    },
+    size: "20px",
   },
   {
     id: "a4_4",
     name: "FKG",
     images: ["a4_4.jpg"],
+    coordinate: {
+      left: "56.8%",
+      top: "57.3%",
+    },
+    size: "20px",
   },
   {
     id: "a5_1",
     name: "FPK",
     images: ["a5_1.jpg"],
+    coordinate: {
+      left: "60.5%",
+      top: "61.1%",
+    },
+    size: "20px",
   },
   {
     id: "a5_2",
     name: "FTMM",
     images: ["a5_2.jpg"],
+    coordinate: {
+      left: "63.1%",
+      top: "61.1%",
+    },
+    size: "20px",
   },
   {
     id: "a5_3",
     name: "FIB-FKM (Likur Production)",
     images: ["a5_3.jpg"],
+    coordinate: {
+      left: "60.5%",
+      top: "57.3%",
+    },
+    size: "20px",
   },
   {
     id: "a5_4",
     name: "FISIP (Board Game Arempaja",
     images: ["a5_4.jpg"],
+    coordinate: {
+      left: "63.1%",
+      top: "57.3%",
+    },
+    size: "20px",
   },
   {
     id: "a6_1",
     name: "FH (ALC)",
     images: ["a6_1.jpg"],
+    coordinate: {
+      left: "68.3%",
+      top: "59.7%",
+    },
+    size: "20px",
   },
   {
     id: "a6_2",
     name: "FEB (Zia Parfum)",
     images: ["a6_2.jpg"],
+    coordinate: {
+      left: "70.6%",
+      top: "58.2%",
+    },
+    size: "20px",
   },
   {
     id: "a6_3",
     name: "Vokasi",
     images: ["a6_3.jpg"],
+    coordinate: {
+      left: "67.5%",
+      top: "56.3%",
+    },
+    size: "20px",
   },
   {
     id: "a6_4",
